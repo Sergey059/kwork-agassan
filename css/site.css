@@ -325,32 +325,31 @@ section.unlimited h3 {
 section.unlimited .row h3 span {
     display: block;
 }
-
-section.unlimited .row {
+/* section.unlimited .row {
     height: 207px;
     padding-left: 180px;
     overflow: hidden;
     background-image: url('../images/unlimited-network-small.gif');
     background-repeat: no-repeat;
     background-position: left top;
-}
+} */
 
 @media (min-width: 1000px) {
-    section.unlimited .row {
+    /* section.unlimited .row {
         background-image: url('../images/unlimited-network.gif');
-    }
+    } */
 
     section.unlimited h3 {
         font-size: 3.5rem;
     }
 
-    section.unlimited .row {
+    /* section.unlimited .row {
         padding-left: 280px;
     }
 
     section.unlimited .row h3 span {
         padding-top: 2rem;
-    }
+    } */
 }
 
 section.testimonials {
@@ -547,14 +546,13 @@ header .column a.curtain span{
 }
 section.hero .video .cta {
   padding: 2rem 0;
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
 }
 section.testimonials p {
   padding: 0;
 }
-
-
 section.how .rows .row {
   padding: 1.6rem 0;
   font-size: 2rem;
@@ -568,16 +566,34 @@ section.how .rows .row span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
-  flex: 0 0 60px;
+  width: 90px;
+  height: 90px;
+  flex: 0 0 90px;
   border-radius: 50%;
   background-color: #37B14A;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 5rem;
 }
-
+section.unlimited .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.unlimited .row span {
+  text-align: center;
+}
+section.unlimited .row::before {
+  margin-bottom: 20px;
+  display: inline-block;
+  content: '';
+  width: 180px;
+  height: 180px;
+  background-image: url('../images/unlimited-network-small.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 
 
@@ -607,6 +623,10 @@ section.calendar h4 {
     color: #FFFFFF;
     line-height: 70px;
 }
+/* section.testimonials .three.columns{
+  margin: 0 auto;
+  max-width: 340px;
+} */
 section.calendar .row.schedule iframe{
   margin-left: -15px;
   margin-right: -10px;
@@ -644,6 +664,25 @@ section.calendar .row.schedule iframe{
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
+  }
+
+  section.unlimited .row {
+    flex-direction: row;
+  }
+  section.unlimited .row span{
+    text-align: left;
+  }
+  section.unlimited .row::before {
+    margin-right: 24px;
+    margin-bottom: 0;
+    height: 160px;
+    width: 160px;
+    flex: 1 0 160px;
+  }
+  section.how .rows .row span {
+    width: 60px;
+    height: 60px;
+    flex-basis: 60px;
   }
   section.offer h3,
   section.calendar h4 {
@@ -684,6 +723,9 @@ section.calendar .row.schedule iframe{
   header .column a.curtain span{
     font-size: 2rem;
   }
+  section.hero .video .cta {
+    padding-bottom: 2rem;
+  }
   section.how .rows .row {
     font-size: 3rem;
   }
@@ -701,5 +743,12 @@ section.calendar .row.schedule iframe{
   section.calendar h4 {
     line-height: 122px;
     font-size: 4rem;
+  }
+  section.unlimited .row::before {
+    margin-right: 60px;
+    margin-bottom: 0;
+    height: 208px;
+    width: 200px;
+    flex: 1 0 207px;
   }
 }
