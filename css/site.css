@@ -2,7 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     font-size: 2rem;
-
 }
 
 h1 {
@@ -24,12 +23,6 @@ h4 {
     color: #37B14A;
 }
 
-/* header {
-    background-image: url('../images/header-effect-right.png');
-    background-repeat: no-repeat;
-    background-position: center top;
-} */
-
 header .column {
     margin: 0;
 }
@@ -37,64 +30,6 @@ header .column {
 header .one-half.column {
     width: 50%;
 }
-
-/* header .column a.logo {
-    display: block;
-    height: 0;
-    padding: 70px 0 0 0;
-    overflow: hidden;
-    background-image: url('../images/leadimpact-small.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-} */
-
-/* header .column a.curtain {
-    display: block;
-    overflow: hidden;
-    height: 70px;
-    padding-left: 145px;
-    background-image: url('../images/right-curtain-small.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-    text-decoration: none;
-} */
-/* header .column a.curtain span {
-    display: block;
-    padding-left: 55px;
-    line-height: 70px;
-    overflow: hidden;
-    background-image: url('../images/schedule-call-icon-small.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
-header .column a.curtain span {
-    font-size: 1.5rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #FFFFFF;
-    text-decoration: none;
-} */
-
-/* @media (min-width: 1000px) {
-    header .column a.logo {
-        padding: 122px 0 0 0;
-        background-image: url('../images/leadimpact.png');
-    } 
-
-    header .column a.curtain {
-        height: 122px;
-        padding-left: 250px;
-        background-image: url('../images/right-curtain.png');
-    }
-
-    header .column a.curtain span {
-        font-size: 2rem;
-        padding-left: 95px;
-        line-height: 122px;
-        background-image: url('../images/schedule-call-icon.png');
-    }
-} */
 
 section.hero {
     padding: 4rem 0;
@@ -181,20 +116,6 @@ section.hero .video .cta a span {
     }
 }
 
-/* section.offer,
-section.calendar {
-    background-image: url('../images/header-effect-left-small.png');
-    background-repeat: no-repeat;
-    background-position: center top;
-} */
-/* section.offer h3 span,
-section.calendar h4 span {
-    padding: 17px 75px 17px 0;
-    background-image: url('../images/left-curtain-small.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-} */
-
 section.offer p,
 section.calendar p {
     font-size: 2rem;
@@ -206,16 +127,6 @@ section.offer .company-example {
 }
 
 @media (min-width: 1000px) {
-    /* section.offer,
-    section.calendar {
-        background-image: url('../images/header-effect-left.png');
-    } */
-    /* section.offer h3 span,
-    section.calendar h4 span {
-        padding: 37px 180px 37px 0;
-        background-image: url('../images/left-curtain.png');
-    } */
-
     section.offer p,
     section.calendar p {
         font-size: 3rem;
@@ -250,56 +161,11 @@ section.how .rows .point {
     padding: 1rem 0;
 }
 
-/* section.how .rows .row span {
-    display: inline-block;
-    width: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    background-color: #37B14A;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 5rem;
-    text-align: center;
-} */
-
-/* section.how .rows .row.one span {
-    margin: 1rem 3rem 3rem 0;
-}
-
-section.how .rows .row.two span {
-    margin: 1rem 3rem 6rem 0;
-}
-
-section.how .rows .row.three span {
-    margin: 1rem 3rem 14rem 0;
-} */
-
-/* section.how .rows .row {
-    padding: 1.6rem 0 0 0;
-    font-size: 2rem;
-} */
-
 @media (min-width: 1000px) {
     section.how h3,
     section.how h4 {
         font-size: 5rem;
     }
-
-    /* section.how .rows .row {
-        font-size: 3rem;
-    } */
-
-    /* section.how .rows .row.one span {
-        margin-right: 4rem;
-    }
-
-    section.how .rows .row.two span {
-        margin-right: 4rem;
-    }
-
-    section.how .rows .row.three span {
-        margin-right: 4rem;
-    } */
 }
 
 section.unlimited {
@@ -324,31 +190,11 @@ section.unlimited h3 {
 section.unlimited .row h3 span {
     display: block;
 }
-/* section.unlimited .row {
-    height: 207px;
-    padding-left: 180px;
-    overflow: hidden;
-    background-image: url('../images/unlimited-network-small.gif');
-    background-repeat: no-repeat;
-    background-position: left top;
-} */
 
 @media (min-width: 1000px) {
-    /* section.unlimited .row {
-        background-image: url('../images/unlimited-network.gif');
-    } */
-
     section.unlimited h3 {
         font-size: 3.5rem;
     }
-
-    /* section.unlimited .row {
-        padding-left: 280px;
-    }
-
-    section.unlimited .row h3 span {
-        padding-top: 2rem;
-    } */
 }
 
 section.testimonials {
@@ -362,12 +208,6 @@ section.testimonials .row:first-child {
 section.testimonials .row:last-child {
     padding: 0;
 }
-
-/* section.testimonials .row {
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-} */
 
 section.testimonials .three.columns {
     background-color: #37B14A;
@@ -423,14 +263,9 @@ section.testimonials h3 {
     section.testimonials p {
         font-size: 3.5rem;
     }
-
     section.testimonials h3 {
         font-size: 5rem;
     }
-
-    /* section.testimonials .nine.columns {
-        font-size: 2.5rem;
-    } */
 }
 
 section.support {
@@ -455,8 +290,6 @@ section.calendar .row.schedule {
 }
 
 section.calendar .row.schedule iframe {
-    /* width: 400px; */
-    /* height: 777px; */
     border: 2px solid #EFEFEF;
 }
 
@@ -505,9 +338,15 @@ header .column a.curtain{
   position: relative;
   text-decoration: none;
   z-index: 2;
+  transition: color 0.3s ease;
+}
+header .column a.curtain span{
+  transition: color 0.3s ease;
+}
+header .column a.curtain:hover span{
+  color: #00a800;
 }
 header .column a.curtain::before{
-  margin-top: 5px;
   display: inline-block;
   content: '';
   width: 60px;
@@ -516,7 +355,7 @@ header .column a.curtain::before{
   background-size: cover;
 }
 header .column a.curtain span{
-  margin-left: 6px;
+  margin-left: 12px;
   display: none;
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
@@ -602,9 +441,6 @@ section.unlimited .row::before {
   background-position: center;
   background-size: cover;
 }
-
-
-
 section.offer,
 section.calendar {
   position: relative;
@@ -631,10 +467,6 @@ section.calendar h4 {
     color: #FFFFFF;
     line-height: 70px;
 }
-/* section.testimonials .three.columns{
-  margin: 0 auto;
-  max-width: 340px;
-} */
 section.calendar .row.schedule iframe{
   margin-left: -15px;
   margin-right: -10px;
@@ -642,8 +474,6 @@ section.calendar .row.schedule iframe{
   min-height: 600px;
   width: auto;
 }
-
-
 section.hero{
   padding-top: 3rem;
 }
@@ -655,8 +485,6 @@ section.hero h2{
 section.hero .video{
   padding-top: 1rem;
 }
-
-
 @keyframes pulse {
   0% {
     transform: scale3d(1, 1, 0);
@@ -664,7 +492,7 @@ section.hero .video{
   }
   50% {
     transform: scale3d(1.05, 1.15, 0);
-    opacity: .6;
+    opacity: .7;
   }
   100% {
     opacity: 0;
@@ -673,6 +501,12 @@ section.hero .video{
 .hero .curtain{
   position: relative;
   border-radius: 65px;
+}
+.hero .cta .curtain span{
+  transition: 0.3s ease;
+}
+.hero .cta .curtain:hover span{
+  color: #9f29c2;
 }
 .hero .curtain::before {
   width: 226px;
@@ -685,9 +519,8 @@ section.hero .video{
   border: 2px solid #9ad8a4;
   box-shadow: inset 0 0 20px #9ad8a4;
   border-radius: 65px;
-  animation: pulse 1.5s ease-in-out 0s infinite;
+  animation: pulse 1.5s cubic-bezier(0, 0.5, 1, 0.5) 0s infinite;
 }
-
 @media (min-width: 400px) {
   section.calendar .row.schedule iframe {
     width: 360px;
@@ -785,31 +618,28 @@ section.hero .video{
     width: 94.2%;
     padding-top: 53%;
   }
-
-
-
   header::after {
     width: 41%;
-    border-bottom-left-radius: 122px;
+    border-bottom-left-radius: 90px;
   }
   .logo {
-    padding-top: 122px;
+    padding-top: 90px;
   }
   .logo::after{
-    width: 392px;
-    height: 122px;
+    width: 400px;
+    height: 90px;
     background-image: url(../images/leadimpact.png)
   }
   .one-half-bg{
-    height: 122px;
+    height: 90px;
   } 
   .one-half-bg::after{
-    right: 0;
-    max-width: 385px;
+    right: 30%;
+    max-width: 300px;
   }
   header .column a.curtain::before{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
   header .column a.curtain span{
     font-size: 2rem;
