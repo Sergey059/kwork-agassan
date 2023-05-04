@@ -697,6 +697,32 @@ section.calendar .row.schedule iframe{
   }
 }
 @media (min-width: 1000px) {
+  section.hero{
+    padding-top: 3rem;
+  }
+  section.hero h1{
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+  }
+  section.hero h2{
+    margin: 0 auto;
+    max-width: 720px;
+    font-size: 2.8rem;
+  }
+  section.hero .video{
+    padding-top: 1rem;
+  }
+  section.hero .video p{
+    font-size: 3rem;
+  }
+  section.hero .video .player{
+    margin: 0 auto;
+    width: 86%;
+    padding-top: 53%;
+  }
+
+
+
   header::after {
     width: 41%;
     border-bottom-left-radius: 122px;
