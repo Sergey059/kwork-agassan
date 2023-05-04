@@ -364,9 +364,11 @@ section.testimonials .row:last-child {
     padding: 0;
 }
 
-section.testimonials .row {
+/* section.testimonials .row {
     padding: 2rem 0;
-}
+    display: flex;
+    flex-direction: column;
+} */
 
 section.testimonials .three.columns {
     background-color: #37B14A;
@@ -427,9 +429,9 @@ section.testimonials h3 {
         font-size: 5rem;
     }
 
-    section.testimonials .nine.columns {
+    /* section.testimonials .nine.columns {
         font-size: 2.5rem;
-    }
+    } */
 }
 
 section.support {
@@ -550,6 +552,13 @@ section.hero .video .cta {
   display: flex;
   justify-content: center;
 }
+section.testimonials .row {
+  margin: 0 auto;
+  padding: 2rem 0;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+}
 section.testimonials p {
   padding: 0;
 }
@@ -589,7 +598,7 @@ section.unlimited .row::before {
   content: '';
   width: 180px;
   height: 180px;
-  background-image: url('../images/unlimited-network-small.gif');
+  background-image: url('../images/circles.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -634,6 +643,22 @@ section.calendar .row.schedule iframe{
   min-height: 600px;
   width: auto;
 }
+
+
+section.hero{
+  padding-top: 3rem;
+}
+section.hero h2{
+  margin: 0 auto;
+  max-width: 720px;
+  font-size: 2.8rem;
+}
+section.hero .video{
+  padding-top: 1rem;
+}
+
+
+
 @media (min-width: 400px) {
   section.calendar .row.schedule iframe {
     width: 360px;
@@ -679,6 +704,13 @@ section.calendar .row.schedule iframe{
     width: 160px;
     flex: 1 0 160px;
   }
+  section.testimonials .three.columns{
+    width: 100%;
+  }
+  section.testimonials .nine.columns{
+    margin-left: 0;
+    width: 100%;
+  }
   section.how .rows .row span {
     width: 60px;
     height: 60px;
@@ -696,21 +728,25 @@ section.calendar .row.schedule iframe{
     width: 400px;
   }
 }
-@media (min-width: 1000px) {
-  section.hero{
-    padding-top: 3rem;
+@media (min-width: 750px) {
+  section.testimonials .row {
+    max-width: none;
+    flex-direction: row;
+    justify-content: space-between;
   }
+  section.testimonials .three.columns{
+    margin-right: 12px;
+    width: 26%;
+    max-width: 211px;
+  }
+  section.testimonials .nine.columns{
+    width: 74%;
+  }
+}
+@media (min-width: 1000px) {
   section.hero h1{
     margin-bottom: 1.5rem;
     font-size: 5rem;
-  }
-  section.hero h2{
-    margin: 0 auto;
-    max-width: 720px;
-    font-size: 2.8rem;
-  }
-  section.hero .video{
-    padding-top: 1rem;
   }
   section.hero .video p{
     font-size: 3rem;
@@ -776,5 +812,11 @@ section.calendar .row.schedule iframe{
     height: 208px;
     width: 200px;
     flex: 1 0 207px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.testimonials .nine.columns {
+      font-size: 2.5rem;
   }
 }
